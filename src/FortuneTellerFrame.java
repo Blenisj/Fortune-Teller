@@ -24,7 +24,7 @@ public class FortuneTellerFrame extends JFrame {
         // ===== Top Panel =====
         JPanel topPanel = new JPanel();
 
-        ImageIcon icon = new ImageIcon("istockphoto-619772718-612x612.jpg");  // <-- add image file to project
+        ImageIcon icon = new ImageIcon(getClass().getResource("/istockphoto-619772718-612x612.jpg"));
         JLabel titleLabel = new JLabel("Fortune Teller", icon, JLabel.CENTER);
 
         titleLabel.setHorizontalTextPosition(JLabel.CENTER);
